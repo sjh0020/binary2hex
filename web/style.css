@@ -1,0 +1,26 @@
+#binary{
+    color: black;
+    width: 30vw;
+    height:40vh;
+    position: absolute;
+    left: 15vw;
+    top: 30vh;
+  }
+  #convert{
+    position:absolute;
+    width:5vw;
+    height: 5vh;
+    left: 47.6vw;
+    top: 48vh;
+  }
+  #hex{
+    color: black;
+    width: 30vw;
+    height:40vh;
+    position: absolute;
+    right: 15vw;
+    top: 30vh;
+  }
+  textarea{
+    resize: none;
+  }
