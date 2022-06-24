@@ -1,26 +1,41 @@
 #binary{
     color: black;
-    width: 30vw;
+    width: 20vw;
     height:40vh;
     position: absolute;
-    left: 15vw;
+    left: 8vw;
     top: 30vh;
-  }
-  #convert{
+}
+#convert{
     position:absolute;
     width:5vw;
     height: 5vh;
-    left: 47.6vw;
+    left: 32vw;
     top: 48vh;
-  }
-  #hex{
+}
+#hex{
     color: black;
-    width: 30vw;
+    width: 20vw;
     height:40vh;
     position: absolute;
-    right: 15vw;
+    left: 40vw;
     top: 30vh;
-  }
-  textarea{
+}
+#ASCII{
+  position: absolute;
+    color: black;
+    width: 20vw;
+    height:40vh;
+    right: 8vw;
+    top: 30vh;
+}
+#btn-toASCII{
+  position: absolute;
+  width: 5vw;
+  height: 5vh;
+  top: 48vh;
+  right: 31.5vw;
+}
+textarea{
     resize: none;
-  }
+}
