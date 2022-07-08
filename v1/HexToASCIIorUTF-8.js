@@ -7,6 +7,7 @@ legacy();
 function legacy() {
     readline.question(`请输入要转换为ASCII的十六进制数值: `, str => {
         str = str.toUpperCase();
+        str = str.replaceAll(" ", ""); // 去除为了美观的空格
         // console.time("legacyCodeRunTime");
         for (let i = 0; i < str.length; i += 2) {
             let eachTwo = str.substring(i, i + 2);
