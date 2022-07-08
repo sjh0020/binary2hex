@@ -11,7 +11,14 @@
     width:5vw;
     height: 5vh;
     left: 32vw;
-    top: 48vh;
+    top: 44vh;
+}
+#btn-clear{
+    position:absolute;
+    width:5vw;
+    height: 5vh;
+    left: 32vw;
+    top: 52vh;
 }
 #hex{
     color: black;
